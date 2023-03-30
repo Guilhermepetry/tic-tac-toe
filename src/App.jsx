@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <a href="#" className="action">
-        Sobre
+        About
       </a>
     </>
   );
