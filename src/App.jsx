@@ -1,11 +1,10 @@
 import "./App.css";
+import About from "./objects/About";
 
 function App() {
   return (
     <>
-      <a href="#" className="action">
-        About
-      </a>
+      <About />
     </>
   );
 }
