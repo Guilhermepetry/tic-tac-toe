@@ -1,14 +1,10 @@
 import "./App.css";
-import About from "./objects/About";
-import Logo from "./objects/Logo";
-import Menu from "./objects/Menu";
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
-      <Logo />
-      <About />
-      <Menu />
+      <Header />
     </>
   );
 }
