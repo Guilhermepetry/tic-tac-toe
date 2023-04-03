@@ -1,0 +1,8 @@
+.player {
+  background: none;
+  border: none;
+}
+
+.player > .playerImage {
+  width: 36px;
+}

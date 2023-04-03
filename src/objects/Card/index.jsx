@@ -1,7 +1,7 @@
 import "./style.css";
 
-function Card() {
-  return <article className="card"></article>;
+function Card({ children }) {
+  return <article className="card">{children}</article>;
 }
 
 export default Card;
