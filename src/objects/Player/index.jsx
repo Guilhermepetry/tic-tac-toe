@@ -6,7 +6,6 @@ function Player({ player }) {
   const playerTurn = [];
   playerTurn["first"] = playerFirst;
   playerTurn["second"] = playerSecond;
-  console.log(playerTurn);
   return (
     <button className="player">
       <img
