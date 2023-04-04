@@ -1,0 +1,12 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app > .card {
+  margin-top: 85px;
+  width: 80vw;
+  aspect-ratio: 1/1;
+  padding: 15px;
+}

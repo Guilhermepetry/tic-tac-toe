@@ -1,6 +1,15 @@
 .grid {
   height: 100%;
+  background-color: var(--color-fourth);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  gap: 2px;
+}
+
+.grid > .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-white);
 }
