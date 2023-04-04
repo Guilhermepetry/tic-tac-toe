@@ -1,8 +1,8 @@
 import "./style.css";
 
-function Label({ content }) {
+function Label({ htmlFor, content }) {
   return (
-    <label className="label" htmlFor="">
+    <label className="label" htmlFor={htmlFor}>
       {content}
     </label>
   );
