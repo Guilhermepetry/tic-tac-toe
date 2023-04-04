@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./components/Header";
 import Grid from "./components/Grid";
+import Label from "./objects/Label";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <main className="app">
         <Grid />
+        <Label content="Show events" />
       </main>
     </>
   );
