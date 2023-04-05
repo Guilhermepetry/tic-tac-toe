@@ -10,7 +10,7 @@ function App() {
       <Header />
       <main className="app">
         <Grid />
-        <Input id="show" value="show" content="Show events" />
+        <Input id="show" value="show" type="checkbox" content="Show events" />
       </main>
     </>
   );
