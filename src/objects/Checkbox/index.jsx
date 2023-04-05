@@ -1,3 +1,4 @@
+import "./style.css";
 import Label from "../Label";
 import Input from "../Input";
 

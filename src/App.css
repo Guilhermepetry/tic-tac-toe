@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .app > .card {
@@ -10,4 +11,5 @@
   width: 80vw;
   aspect-ratio: 1/1;
   padding: 15px;
+  margin-bottom: 40px;
 }
